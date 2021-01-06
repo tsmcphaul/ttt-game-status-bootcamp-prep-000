@@ -14,7 +14,7 @@ WIN_COMBINATIONS = [
   [0, 4, 8],
   [6, 4, 2]
 
-def won(board)
+def won?(board)
   WIN_COMBINATIONS.each {|win_combo|
     win_index_0 = win_combo[0]
     win_index_1 = win_combo[1]
